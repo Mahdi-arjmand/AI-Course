@@ -1,0 +1,46 @@
+# --- Python General ---
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+.env_folder/
+
+# --- Environment Variables (CRITICAL: Contains API Keys) ---
+.env
+.env.local
+
+# --- IDE Settings (Optional but recommended) ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# --- Database ---
+*.db
+*.sqlite3
+bot_users.db
+
+# --- Logs ---
+*.log
+
+# --- Project Specific Temporary Files ---
+temp_voice_*.ogg
+temp_voice_*.mp3
+temp_*.ogg
+temp_*.mp3
+temp_*.wav
+temp_processing.epub
+temp.epub
+
+# --- Mac OS ---
+.DS_Store
+
+full_project_context.txt
+compressor.py
+extractor.py
+
